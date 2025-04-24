@@ -512,7 +512,7 @@
              atv="-3.90"
              scale="0.35"
              depth="4500"
-             onclick="ocultar04(); youtubeplayer_open('xtDO4znUrUU');"/>
+             onclick="youtubeplayer_open('xtDO4znUrUU'); ocultar04();"/>
 
 
 
