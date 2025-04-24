@@ -461,7 +461,7 @@
 		
 		<hotspot name="spot3" url="lupa.png" style="skin_hotspotstyle1"	visible="true" ath="-2.824"	atv="17.375" scale="0.3" depth="2699.1"	rx="0" ry="11.5" rz="0"	ox="0" oy="0" tx="0" ty="0"	tz="0" distorted="true"	onclick="set(hotspot[video1].visible,true); set(hotspot[ba].visible,true); playvideo(video1); set(hotspot[spot3].visible,false);" />
 
-		<hotspot name="video1" url.html5="plugins/videoplayer.js" videourl="recursos/video1.mp4" posterurl="poster.png" visible="false" pausedonstart="true" loop="false" volume="50.0" ath="-5.34" atv="6.36" scale="3" depth="2700" rx="0" ry="0" rz="0" ox="0" oy="0" tx="0" ty="0" tz="0" distorted="true" onclick="togglepause(video1); set(hotspot[play].visible,true);" />
+		<hotspot name="video1" url.html5="plugins/videoplayer.js" videourl="recursos/Video1.mp4" posterurl="poster.png" visible="false" pausedonstart="true" loop="false" volume="50.0" ath="-5.34" atv="6.36" scale="3" depth="2700" rx="0" ry="0" rz="0" ox="0" oy="0" tx="0" ty="0" tz="0" distorted="true" onclick="togglepause(video1); set(hotspot[play].visible,true);" />
 
 		<hotspot name="ba" url="boton_atras3.png" style="skin_hotspotstyle1" visible="false" onclick="pause(videoplayer); seek(videoplayer, 0); set(hotspot[completov0].visible,false); ocultar06();" ath="-40.465" atv="-22.321" scale="0.3" depth="3699.10000000000855" rx="0" ry="11.50000000000000" rz="0" ox="0.00000000000000" oy="0.00000000000000" tx="0" ty="0" tz="0" distorted="true" />
 			
@@ -519,7 +519,8 @@
 		<hotspot name="marcador12" url="marcador.png" distorted="true" ath="-0.3" atv="12.2" scale="0.234" depth="4500" rx="0" ry="0" rz="0" ox="0" oy="0" tx="0" ty="0" tz="0" onclick="set(hotspot[completov12].visible,true); playvideo(completov12);ocultar04(); set(hotspot[ba2].visible,true); set(hotspot[lupa2].visible,false); set(hotspot[lupa1].visible,false);"/>
 		<hotspot name="marcador13" url="marcador.png" distorted="true" ath="15" atv="11.8" scale="0.21" depth="4500" rx="0" ry="0" rz="0" ox="0" oy="0" tx="0" ty="0" tz="0" onclick="set(hotspot[completov13].visible,true); playvideo(completov13);ocultar04(); set(hotspot[ba2].visible,true); set(hotspot[lupa2].visible,false); set(hotspot[lupa1].visible,false);"/>
 		<hotspot name="marcador14" url="marcador.png" distorted="true" ath="19.8" atv="7" scale="0.4" depth="4500" rx="0" ry="0" rz="0" ox="0" oy="0" tx="0" ty="0" tz="0" onclick="set(hotspot[completov14].visible,true); playvideo(completov14);ocultar04(); set(hotspot[ba2].visible,true); set(hotspot[lupa2].visible,false); set(hotspot[lupa1].visible,false);"/>
-		
+		<hotspot name="completo" url="completo.png" distorted="true" visible="false" ath="1.76" atv="20.26" scale="1" depth="4000" rx="0" ry="0" rz="0" ox="0.00000000000000" oy="0.00000000000000" tx="0" ty="0" tz="0" onclick="set(hotspot[completov0].visible,true); playvideo(completov0); ocultar04(); set(hotspot[ba2].visible,true); set(hotspot[lupa2].visible,false); set(hotspot[lupa1].visible,false);"/>
+
 		<hotspot name="marcador15" url="marcador.png" distorted="true" ath="-10.5" atv="2.2" scale="0.2" depth="4500" rx="0" ry="0" rz="0" ox="0.00000000000000" oy="0.00000000000000" tx="0" ty="0" tz="0" onclick="set(hotspot[completov15].visible,true); playvideo(completov15);ocultar04(); set(hotspot[ba3].visible,true); set(hotspot[lupa2].visible,false); set(hotspot[lupa1].visible,false);"/>
 		<hotspot name="marcador16" url="marcador.png" distorted="true" ath="-7.6" atv="2.2" scale="0.2" depth="4500" rx="0" ry="0" rz="0" ox="0.00000000000000" oy="0.00000000000000" tx="0" ty="0" tz="0" onclick="set(hotspot[completov16].visible,true); playvideo(completov16);ocultar04(); set(hotspot[ba3].visible,true); set(hotspot[lupa2].visible,false); set(hotspot[lupa1].visible,false);"/>
 		<hotspot name="marcador17" url="marcador.png" distorted="true" ath="6.7" atv="-3.5" scale="0.4" depth="4500" rx="0" ry="0" rz="0" ox="0.00000000000000" oy="0.00000000000000" tx="0" ty="0" tz="0" onclick="set(hotspot[completov17].visible,true); playvideo(completov17);ocultar04(); set(hotspot[ba3].visible,true); set(hotspot[lupa2].visible,false); set(hotspot[lupa1].visible,false);"/>
@@ -528,7 +529,7 @@
 		<hotspot name= "ba2" url = "boton_atras3.png" style="skin_hotspotstyle1" visible="false" onclick="ocultar05();" ath="-40.465" atv="-22.321" scale="0.3" depth="3699.10000000000855" rx="0" ry="11.50000000000000" rz="0" ox="0.00000000000000" oy="0.00000000000000" tx="0" ty="0" tz="0" distorted = "true" />
 		<hotspot name= "ba3" url = "boton_atras3.png" style="skin_hotspotstyle1" visible="false" onclick="ocultar07();" ath="-40.465" atv="-22.321" scale="0.3" depth="3699.10000000000855" rx="0" ry="11.50000000000000" rz="0" ox="0.00000000000000" oy="0.00000000000000" tx="0" ty="0" tz="0" distorted = "true" />
 
-		<hotspot name="completov0" url.html5="plugins/videoplayer.js" videourl="recursos/video2.mp4" posterurl="poster.png" visible="false" pausedonstart="true" loop="false" volume="1.0" onclick="togglepause(completov0); set(hotspot[play].visible,false);" />
+		<hotspot name="completov0" url.html5="plugins/videoplayer.js" videourl="recursos/Video2.mp4" posterurl="poster.png" visible="false" pausedonstart="true" loop="false" volume="1.0" onclick="togglepause(completov0); set(hotspot[play].visible,false);" />
 		<hotspot name="completov1" url.html5="plugins/videoplayer.js" videourl="recursos/v1.mp4" posterurl="poster.png" visible="false" pausedonstart="true" loop="false" volume="1.0" onclick="togglepause(completov1); set(hotspot[play].visible,false);" />
 		<hotspot name="completov2" url.html5="plugins/videoplayer.js" videourl="recursos/v2.mp4" posterurl="poster.png" visible="false" pausedonstart="true" loop="false" volume="1.0" onclick="togglepause(completov2); set(hotspot[play].visible,false);" />
 		<hotspot name="completov3" url.html5="plugins/videoplayer.js" videourl="recursos/v3.mp4" posterurl="poster.png" visible="false" pausedonstart="true" loop="false" volume="1.0" onclick="togglepause(completov3); set(hotspot[play].visible,false);" />
@@ -547,7 +548,6 @@
 		<hotspot name="completov16" url.html5="plugins/videoplayer.js" videourl="recursos/v16.mp4" posterurl="poster.png" visible="false" pausedonstart="true" loop="false" volume="1.0" onclick="togglepause(completov16); set(hotspot[play].visible,false);" />
 		<hotspot name="completov17" url.html5="plugins/videoplayer.js" videourl="recursos/v17.mp4" posterurl="poster.png" visible="false" pausedonstart="true" loop="false" volume="1.0" onclick="togglepause(completov17); set(hotspot[play].visible,false);" />
 
-		<hotspot name="completo" url="completo.png" distorted="true" visible="false" ath="1.76" atv="20.26" scale="1" depth="4000" rx="0" ry="0" rz="0" ox="0.00000000000000" oy="0.00000000000000" tx="0" ty="0" tz="0" linkedscene="scene_1_(entrada)" linkedscene_hoffset="0.0" use3dtransition="true" onclick="set(hotspot[completov0].visible,true); playvideo(completov0); ocultar04(); set(hotspot[ba2].visible,true); set(hotspot[lupa2].visible,false); set(hotspot[lupa1].visible,false);"/>
 
 	</scene>
 
