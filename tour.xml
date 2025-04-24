@@ -505,7 +505,6 @@
 		<hotspot name="spot5" enabled="false" url="2121-removebg-preview.png" distorted="true" ath="0.640" atv="2.980" scale="4" depth="4500" rx="0" ry="1.7" rz="0" ox="0" oy="0" tx="0" ty="0" tz="0" linkedscene="scene_r0010056" linkedscene_hoffset="0.0" use3dtransition="true" onclick="return false;" zindex="0" />
 		<hotspot name="maquina2" enabled="false" url="maquina2.png" distorted="true" ath="0.640" atv="2.980" scale="4" depth="3785.09" rx="0" ry="1.7" rz="0" ox="0" oy="0" tx="0" ty="0" tz="0" linkedscene="scene_r0010056" linkedscene_hoffset="0.0" use3dtransition="true" onclick="return false;" zindex="0" />
 
- <!-- Hotspot para abrir el video -->
     <hotspot name="marcador1"
              url="marcador.png"
              distorted="true"
@@ -513,28 +512,7 @@
              atv="-3.90"
              scale="0.35"
              depth="4500"
-             onclick="ocultar04(); youtubeplayer_open('xtDO4znUrUU'); set(hotspot[marcador1].visible, false); set(hotspot[marcador_frame].visible, true);"/>
-
-    <!-- Frame donde se muestra el video (panel 2D) -->
-    <hotspot name="marcador_frame"
-             url="frame.png"
-             distorted="true"
-             ath="-0.85"
-             atv="-3.90"
-             scale="0.35"
-             depth="4500"
-             visible="false"/>
-
-    <!-- Reproductor de YouTube en 2D -->
-    <youtubeplayer name="youtube_video"
-                   ath="-0.85"
-                   atv="-3.90"
-                   scale="0.35"
-                   depth="4500"
-                   width="1600"
-                   height="900"
-                   videoid="xtDO4znUrUU"
-                   visible="false" />
+             onclick="ocultar04(); youtubeplayer_open('xtDO4znUrUU');"/>
 
 
 
