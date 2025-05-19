@@ -164,7 +164,7 @@
 		set(hotspot[spot1].visible, true);		
 		set(hotspot[spot2].visible, false);
 		set(hotspot[spot3].visible, false);
-		set(hotspot[spot4].visible, true);
+		set(hotspot[spot2].visible, true);
 		set(hotspot[video1].visible, false);
 		set(hotspot[ba].visible, false);
 
