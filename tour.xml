@@ -466,7 +466,6 @@
 
 		<hotspot name="ba" url="boton_atras3.png" style="skin_hotspotstyle1" visible="false" onclick="pause(videoplayer); seek(videoplayer, 0); set(hotspot[completov0].visible,false); ocultar06();" ath="-40.465" atv="-22.321" scale="0.3" depth="3699.10000000000855" rx="0" ry="11.50000000000000" rz="0" ox="0.00000000000000" oy="0.00000000000000" tx="0" ty="0" tz="0" distorted="true" />
 			
-		<hotspot name="spot2" url = "informacion_basica2.png" distorted="true" onclick="ocultar10();" ath="0.640" atv="2.980" scale="1.5" depth="3137.09999999999991" rx="0000000000000" ry="1.70000000000000" rz="0.0000000000000" ox="0.00000000000000" oy="0.00000000000000" tx="0" ty="0" tz="0" linkedscene="scene_r0010056" linkedscene_hoffset="0.0" use3dtransition="true" />		
 		<hotspot name="spot5" url = "pisada.png" style="skin_hotspotstyle" ath="-91.157" atv="8.259" linkedscene="scene_r0010056" linkedscene_hoffset="0.0" use3dtransition="true" />
 
 	</scene>
