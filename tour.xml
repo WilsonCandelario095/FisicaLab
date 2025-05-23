@@ -440,9 +440,9 @@
 			<cube url="panos/Pasillo_1.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1664" />
 		</image>
 
-		<hotspot name="spot1" url = "target.png" style="skin_hotspotstyle2" onloaded="do_crop_animation(128,128, 30);" scale = "0.5" ath="-8.020" atv="8.250" linkedscene="scene_Introduccion" linkedscene_hoffset="0.0" use3dtransition="true" />
-		<hotspot name="spot2" url = "pisada.png" style = "skin_hotspotstyle" scale = "1" ath="-164.259" atv="4.294" linkedscene="scene_Entrada" linkedscene_hoffset="0.0" use3dtransition="true" />
-		<hotspot name="spot3" url = "pisada.png" style="skin_hotspotstyle" ath="69.229" atv="6.779" linkedscene="scene_Pasillo_2" linkedscene_hoffset="0.0" use3dtransition="true" />
+		<hotspot name="spot1" url = "target.png" style="skin_hotspotstyle2" onloaded="do_crop_animation(128,128, 30);" scale = "0.5" ath="-8.020" atv="8.250" linkedscene="Introduccion" linkedscene_hoffset="0.0" use3dtransition="true" />
+		<hotspot name="spot2" url = "pisada.png" style = "skin_hotspotstyle" scale = "1" ath="-164.259" atv="4.294" linkedscene="Entrada" linkedscene_hoffset="0.0" use3dtransition="true" />
+		<hotspot name="spot3" url = "pisada.png" style="skin_hotspotstyle" ath="69.229" atv="6.779" linkedscene="Pasillo_2" linkedscene_hoffset="0.0" use3dtransition="true" />
 
 	</scene>
 
@@ -458,7 +458,7 @@
 			<cube url="panos/Introduccion.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1664" />
 		</image>
 
-		<hotspot name="spot1" url = "pisada.png" style="skin_hotspotstyle" scale = "1" ath="164.025" atv="1.546" linkedscene="scene_Pasillo_2" linkedscene_hoffset="0.0" use3dtransition="true" />
+		<hotspot name="spot1" url = "pisada.png" style="skin_hotspotstyle" scale = "1" ath="164.025" atv="1.546" linkedscene="Pasillo_2" linkedscene_hoffset="0.0" use3dtransition="true" />
 
 		<hotspot name="spot3" url="lupa.png" style="skin_hotspotstyle1"	visible="true" ath="-2.824"	atv="17.375" scale="0.3" depth="2699.1"	rx="0" ry="11.5" rz="0"	ox="0" oy="0" tx="0" ty="0"	tz="0" distorted="true"	onclick="set(hotspot[video1].visible,true); set(hotspot[ba].visible,true); playvideo(video1); set(hotspot[spot3].visible,false);" />
 
@@ -483,7 +483,7 @@
 			<cube url="panos/Pasillo_2.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1664" />
 		</image>
 
-		<hotspot name="spot1" url = "target.png" style="skin_hotspotstyle2" onloaded="do_crop_animation(128,128, 30);" scale = "0.5" ath="-26.050" atv="4.400" linkedscene="scene_Practica_Osciloscopio" linkedscene_hoffset="0.0" use3dtransition="true" />
+		<hotspot name="spot1" url = "target.png" style="skin_hotspotstyle2" onloaded="do_crop_animation(128,128, 30);" scale = "0.5" ath="-26.050" atv="4.400" linkedscene="Practica_Osciloscopio" linkedscene_hoffset="0.0" use3dtransition="true" />
 		<hotspot name="spot2" url = "pisada.png" style="skin_hotspotstyle" scale = "1" ath="-83.450" atv="10.014" linkedscene="Pasillo_1" linkedscene_hoffset="0.0" use3dtransition="true" />
 
 	</scene>
