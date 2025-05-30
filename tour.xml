@@ -447,32 +447,19 @@
 	</scene>
 
 	<scene name="Introduccion" title="Introduccion" onstart="on_intro_loaded03()" thumburl="panos/Introduccion.tiles/thumb.jpg" lat="18.48810556" lng="-69.96321389" alt="25.70" heading="0.0">
-		
-		<control bouncinglimits="calc:image.cube ? true : false" />
-
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
-
-		<preview url="panos/Introduccion.tiles/preview.jpg" />
-
+		<control bouncinglimits="calc:image.cube ? true : false"/>
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto"/>
+		<preview url="panos/Introduccion.tiles/preview.jpg"/>
 		<image prealign="0|0.0|0">
-			<cube url="panos/Introduccion.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1664" />
+		<cube url="panos/Introduccion.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1664"/>
 		</image>
-
-		<hotspot name="spot1" url="pisada.png" style="skin_hotspotstyle" scale="1" ath="164.025" atv="1.546" linkedscene="Pasillo_2" linkedscene_hoffset="0.0" use3dtransition="true" />
-
-		<!-- Lupa que abre el video <include url="plugins/youtube-player.xml" />-->
-		<hotspot name="spot3" url="lupa.png" style="skin_hotspotstyle1" visible="true" ath="-2.824" atv="17.375" scale="0.3" depth="2699.1" distorted="true"
-		onclick="youtubeplayer_open('gLYIExHZMgU'); set(hotspot[ba].visible,true); set(hotspot[spot3].visible,false);" />
-
-		<!-- Botón para cerrar el video -->
-		<hotspot name="ba" url="boton_atras3.png" style="skin_hotspotstyle1" visible="false"
-		onclick="youtubeplayer_close(); set(hotspot[ba].visible,false); set(hotspot[spot3].visible,true);"
-		ath="-40.465" atv="-22.321" scale="0.3" depth="3699.1" distorted="true" />
-
-		<hotspot name="spot2" url="informacion_basica3.png" distorted="true" onclick="ocultar10();" ath="0.640" atv="2.980" scale="1.5" depth="3137.1" linkedscene="Pasillo_1" linkedscene_hoffset="0.0" use3dtransition="true" />		
-
-		<hotspot name="spot5" url="pisada.png" style="skin_hotspotstyle" ath="-91.157" atv="8.259" linkedscene="Pasillo_1" linkedscene_hoffset="0.0" use3dtransition="true" />
-
+		
+		<hotspot name="spot1" url="pisada.png" style="skin_hotspotstyle" scale="1" ath="164.025" atv="1.546" linkedscene="Pasillo_2" linkedscene_hoffset="0.0" use3dtransition="true"/>
+		<hotspot name="spot3" url="lupa.png" style="skin_hotspotstyle1" visible="true" ath="-2.824" atv="17.375" scale="0.3" depth="2699.1" rx="0" ry="11.5" rz="0" ox="0" oy="0" tx="0" ty="0" tz="0" distorted="true" onclick="set(hotspot[video1].visible,true); set(hotspot[ba].visible,true); playvideo(video1); set(hotspot[spot3].visible,false);"/>
+		<hotspot name="video1" url.html5="plugins/videoplayer.js" videourl="recursos/v18.mp4" posterurl="poster.png" visible="false" pausedonstart="true" loop="false" volume="50.0" ath="-5.340" atv="6.360" scale="3" depth="2700" rx="0" ry="0" rz="0" ox="0" oy="0" tx="0" ty="0" tz="0" distorted="true" onclick="togglepause(video1); set(hotspot[play].visible,true);"/>
+		<hotspot name="ba" url="boton_atras3.png" style="skin_hotspotstyle1" visible="false" onclick="pause(videoplayer); seek(videoplayer, 0); set(hotspot[completov0].visible,false); ocultar06();" ath="-40.465" atv="-22.321" scale="0.3" depth="3699.10000000000855" rx="0" ry="11.50000000000000" rz="0" ox="0.00000000000000" oy="0.00000000000000" tx="0" ty="0" tz="0" distorted="true"/>
+		<hotspot name="spot2" url="informacion_basica3.png" distorted="true" onclick="ocultar10();" ath="0.640" atv="2.980" scale="1.5" depth="3137.09999999999991" rx="0000000000000" ry="1.70000000000000" rz="0.0000000000000" ox="0.00000000000000" oy="0.00000000000000" tx="0" ty="0" tz="0" linkedscene="Pasillo_1" linkedscene_hoffset="0.0" use3dtransition="true"/>
+		<hotspot name="spot5" url="pisada.png" style="skin_hotspotstyle" ath="-91.157" atv="8.259" linkedscene="Pasillo_1" linkedscene_hoffset="0.0" use3dtransition="true"/>
 	</scene>
 
 	<scene name="Pasillo_2" title="Pasillo_2" onstart="" thumburl="panos/Pasillo_2.tiles/thumb.jpg" lat="18.48801111" lng="-69.96319167" alt="25.70" heading="0.0">
