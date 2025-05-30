@@ -13,7 +13,6 @@
 		parameters="autoplay=1&amp;autohide=1&amp;controls=1&amp;loop=0&amp;modestbranding=0&amp;rel=0&amp;showinfo=0&amp;hd=1&amp;vq=hd720"
 		/>
 
-<include url="plugins/youtube-player.xml" />
 
 <action name="youtubeplayer_open">
 		if(layer[youtubeplayer_bg],
@@ -461,7 +460,7 @@
 
 		<hotspot name="spot1" url="pisada.png" style="skin_hotspotstyle" scale="1" ath="164.025" atv="1.546" linkedscene="Pasillo_2" linkedscene_hoffset="0.0" use3dtransition="true" />
 
-		<!-- Lupa que abre el video -->
+		<!-- Lupa que abre el video <include url="plugins/youtube-player.xml" />-->
 		<hotspot name="spot3" url="lupa.png" style="skin_hotspotstyle1" visible="true" ath="-2.824" atv="17.375" scale="0.3" depth="2699.1" distorted="true"
 		onclick="youtubeplayer_open('gLYIExHZMgU'); set(hotspot[ba].visible,true); set(hotspot[spot3].visible,false);" />
 
