@@ -441,7 +441,7 @@
 		</image>
 
 		<hotspot name="spot1" url = "target.png" style="skin_hotspotstyle2" onloaded="do_crop_animation(128,128, 30);" scale = "0.5" ath="60.22" atv="8.51" linkedscene="Introduccion" linkedscene_hoffset="0.0" use3dtransition="true" />
-		<hotspot name="spot2" url = "pisada.png" style = "skin_hotspotstyle" scale = "1" ath="167.231" atv="8.32" linkedscene="Entrada" linkedscene_hoffset="0.0" use3dtransition="true" />
+		<hotspot name="spot2" url = "pisada.png" style = "skin_hotspotstyle" scale = "1" ath="167.231" atv="8.32" linkedscene="Pasillo_2" linkedscene_hoffset="0.0" use3dtransition="true" />
 		<hotspot name="spot3" url = "pisada.png" style="skin_hotspotstyle" ath="-61.90" atv="-0.91" linkedscene="Pasillo_2" linkedscene_hoffset="0.0" use3dtransition="true" />
 
 	</scene>
