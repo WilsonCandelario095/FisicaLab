@@ -423,7 +423,7 @@
 		</image>
 
 		<hotspot name="spot1" url = "informacion_intro_FisicaLab1.png" distorted="true" onclick="ocultar();" ath="0.64" atv="2.98" scale="1.5" depth="3137.09999999999991" rx="0000000000000" ry="1.70000000000000" rz="0.0000000000000" ox="0.00000000000000" oy="0.00000000000000" tx="0" ty="0" tz="0" linkedscene="Pasillo_1" linkedscene_hoffset="0.0" use3dtransition="true" />
-		<hotspot name="spot2" url = "pisada.png" style="skin_hotspotstyle" scale = "1" ath="-91.52" atv="-0.18" linkedscene="Pasillo_1" linkedscene_hoffset="0.0" use3dtransition="true" />
+		<hotspot name="spot2" url = "pisada.png" style="skin_hotspotstyle" scale = "1" ath="-91.52" atv="-0.18" linkedscene="Pasillo_1" linkedscene_hoffset="0.0" use3dtransition="true" linkedscene_lookat="44.9961938,3.8733444,120.0"/>
 		<hotspot name="spot3" url = "informacion_intro_Practico1.png" distorted="true" onclick="ocultar8();" ath="0.64" atv="2.98" scale="1.5" depth="3137.09999999999991" rx="0000000000000" ry="1.70000000000000" rz="0.0000000000000" ox="0.00000000000000" oy="0.00000000000000" tx="0" ty="0" tz="0" linkedscene="Pasillo_1" linkedscene_hoffset="0.0" use3dtransition="true" />
 
 	</scene>
@@ -441,7 +441,7 @@
 		</image>
 
 		<hotspot name="spot1" url = "target.png" style="skin_hotspotstyle2" onloaded="do_crop_animation(128,128, 30);" scale = "0.5" ath="60.22" atv="8.51" linkedscene="Introduccion" linkedscene_hoffset="0.0" use3dtransition="true" />
-		<hotspot name="spot2" url = "pisada.png" style = "skin_hotspotstyle" scale = "1" ath="167.231" atv="8.32" linkedscene="Pasillo_2" linkedscene_hoffset="0.0" use3dtransition="true" />
+		<hotspot name="spot2" url = "pisada.png" style = "skin_hotspotstyle" scale = "1" ath="167.231" atv="8.32" linkedscene="Entrada" linkedscene_hoffset="0.0" use3dtransition="true" />
 		<hotspot name="spot3" url = "pisada.png" style="skin_hotspotstyle" ath="-61.90" atv="-0.91" linkedscene="Pasillo_2" linkedscene_hoffset="0.0" use3dtransition="true" />
 
 	</scene>
